@@ -1,0 +1,19 @@
+body {
+    max-width: 1400px;
+  }
+  
+  
+  #chart-el {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0 auto;
+    width: 50%;
+    
+    
+  }
+  
+  @media(max-width:500px){
+    #chart-el {
+      width:30%;
+    }
+  }
